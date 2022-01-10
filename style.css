@@ -2,118 +2,88 @@
   box-sizing: border-box;
 }
 
+main {
+  width: 1920px;
+  max-width: 1920px;
+  min-width: 1920px;
 
-main
-{
-    width: 1920px;
-    max-width: 1920px;
-    min-width: 1920px;
-    
-    height: 1000px;
-    max-height: 1000px;
-    min-height: 1000px;
+  height: 1000px;
+  max-height: 1000px;
+  min-height: 1000px;
 
-    margin:5%;
-
-   
+  margin: 5%;
 }
 
-
-.mainNavigation
-{
-    padding-left: 15%;
-    font-size: 0px;
-    margin-bottom: 5%;
+.mainNavigation {
+  padding-left: 15%;
+  font-size: 0px;
+  margin-bottom: 5%;
 }
 
-.text
-{
-    padding-right: 40%;
-    padding-left: 10%;
+.text {
+  padding-right: 40%;
+  padding-left: 10%;
 }
 
-
-.buttonBox
-{
-    display: inline-block;
-    position: relative;
+.buttonBox {
+  display: inline-block;
+  position: relative;
 }
 
-.buttonContent
-{ 
-   
-    text-align: center;
-    display:inline-block;
-    text-decoration: none;
-    font-size: large;
-    border: black 1px solid;
-    
-    width: 150px;
-    height: 50px;
+.buttonContent {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: large;
+  border: black 1px solid;
 
-    padding-top:10%;
+  width: 150px;
+  height: 50px;
 
-    background: green;
-    color: white;
-    
-    
+  padding-top: 10%;
+
+  background: green;
+  color: white;
 }
 
-.innerMenu
-{
-    position: absolute;
+.innerMenu {
+  position: absolute;
 }
 
-.innerListItem
-{
-    display:none;
+.innerListItem {
+  display: none;
 }
 
-.buttonBox:hover >.buttonContent
-{
-   
-    background-color: greenyellow;
+.buttonBox:hover > .buttonContent {
+  background-color: greenyellow;
 }
-.buttonBox:hover>.innerMenu>.innerListItem
-{
-    display: block;
-    
+.buttonBox:hover > .innerMenu > .innerListItem {
+  display: block;
 }
-.innerListItem:hover>.innerLink
-{
-    background-color: greenyellow;
-    color: black;
+.innerListItem:hover > .innerLink {
+  background-color: greenyellow;
+  color: black;
 }
 
-
-
-.compositItem
-{
-    position: relative;
+.compositItem {
+  position: relative;
 }
 
-.typeOfClothesUl
-{
-    position: absolute;
-    right: -100%;
-    top:0;
+.typeOfClothesUl {
+  position: absolute;
+  right: -100%;
+  top: 0;
 }
 
-
-
-.clothesItem
-{
-    display: none;
-
+.clothesItem {
+  display: none;
 }
 
-.compositItem:hover>.typeOfClothesUl>.clothesItem
-{
-    display:block;
+.compositItem:hover > .typeOfClothesUl > .clothesItem {
+  display: block;
 }
 
-.clothesItem:hover>.itemLink
-{
-    background-color: greenyellow;
-    color: black;
+.clothesItem:hover > .itemLink {
+  background-color: greenyellow;
+  color: black;
 }
